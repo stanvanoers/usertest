@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "false";
+    src: url("fontawesome.eot");
+    src: url("fontawesome.eot?#iefix") format("embedded-opentype"),
+         url("fontawesome.woff") format("woff"),
+         url("fontawesome.ttf") format("truetype"),
+         url("fontawesome.svg#false") format("svg");
+    font-weight: false;
+    font-style: false;
+}

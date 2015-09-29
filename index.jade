@@ -1,0 +1,49 @@
+section#container(container)
+    img#logo(src="images/logo.png", alt="logo")
+    section#slide-wrapper
+        article.slide(slide)
+            .wrapper
+                h1.title Toestemming
+                .divider.margin-top
+                h2.subtitle.margin-top-large Doelstelling onderzoek
+                p.center.text.margin-top-small De doelstelling van dit project is het verrijken der geest.
+                h2.subtitle.margin-top Onderzoekers
+                p.center.text.slide-intro.margin-top-small Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere felis et tempus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                h2.subtitle.margin-top Overeenkomst
+                p.center.text.slide-intro.margin-top-small Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere felis et tempus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+
+        article.slide(slide)
+            .wrapper
+                h1.title.slide-title Achtergrond
+                .divider
+                p.center.text.slide-intro Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere felis et tempus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    .input-group
+                div.input-item.text
+                    .label.text-smallest Naam
+
+                    input.input.text-small(type="text")
+                div.input-item.text
+                    .label.text-smallest Leeftijd
+                    input.input.text-small(type="text")
+                div.input-item.text
+                    .label.text-smallest Beroep/school
+                    input.input.text-small(type="text")
+
+        article.slide(slide)
+            h1 slide 03
+
+        article.slide(slide)
+            h1 slide 03
+
+        article.slide(slide)
+            h1 slideasdfasf
+
+    nav#buttons.wrapper
+        button.btn.left(previous) previous
+        nav#page-nav
+            span.text-smallest Pagina
+            span.text-small.bold.green(current-page) 01
+            span.text-smallest  van de
+            span.bold.text-small.green(last-page)
+        button.btn.right(next) next

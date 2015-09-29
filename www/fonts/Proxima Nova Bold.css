@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "false";
+    src: url("Proxima Nova Bold.eot");
+    src: url("Proxima Nova Bold.eot?#iefix") format("embedded-opentype"),
+         url("Proxima Nova Bold.woff") format("woff"),
+         url("Proxima Nova Bold.ttf") format("truetype"),
+         url("Proxima Nova Bold.svg#false") format("svg");
+    font-weight: false;
+    font-style: false;
+}

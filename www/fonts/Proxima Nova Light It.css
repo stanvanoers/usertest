@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "false";
+    src: url("Proxima Nova Light It.eot");
+    src: url("Proxima Nova Light It.eot?#iefix") format("embedded-opentype"),
+         url("Proxima Nova Light It.woff") format("woff"),
+         url("Proxima Nova Light It.ttf") format("truetype"),
+         url("Proxima Nova Light It.svg#false") format("svg");
+    font-weight: false;
+    font-style: false;
+}

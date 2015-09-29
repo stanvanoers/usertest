@@ -1,0 +1,16 @@
+
+=font-face($family, $path, $svg, $weight: normal, $style: normal)
+  @font-face
+    font-family: $family
+    src: url('#{$path}.eot')
+    src: url('#{$path}.eot?#iefix') format('embedded-opentype'), url('#{$path}.woff') format('woff'), url('#{$path}.ttf') format('truetype'), url('#{$path}.svg##{$svg}') format('svg')
+    font-weight: $weight
+    font-style: $style
+
++font-face('Proxima', '../fonts/Proxima Nova Reg', 'Proxima Nova', normal, none)
++font-face('Proxima', '../fonts/Proxima Nova Reg It', 'Proxima Nova', normal, italic)
++font-face('Proxima', '../fonts/Proxima Nova Light', 'Proxima Nova', 100, none)
++font-face('Proxima', '../fonts/Proxima Nova Light It', 'Proxima Nova', 100, italic)
++font-face('Proxima', '../fonts/Proxima Nova Bold', 'Proxima Nova', bold, none)
++font-face('Proxima', '../fonts/Proxima Nova Bold It', 'Proxima Nova', bold, italic)
++font-face('Relative', '../fonts/Relative-Bold', 'Relative-Bold', bold, none)
